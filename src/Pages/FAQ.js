@@ -11,7 +11,7 @@ import Img from "../Images/image 5.png";
 
 const FAQ = () => {
   return (
-    <div className="bg-[#F7F7F7] md:px-24 px-4 grid lg:grid-cols-2 grid-cols-1 md:gap-6 gap-3 lg:py-16">
+    <div className="bg-[#F7F7F7] lg:px-24 md:px-16 px-4 grid lg:grid-cols-2 grid-cols-1 md:gap-6 gap-3 lg:py-16">
       {/* --leftInfo-- */}
       <div className="space-y-3 lg:order-1 order-2">
         <p className="text-base text-[#642DFF] font-medium uppercase">
@@ -187,8 +187,8 @@ const FAQ = () => {
         </Accordion>
       </div>
       {/* --rightImg-- */}
-      <div className="lg:order-2 order-1 lg:pb-0 md:pb-0 pb-36">
-        <div className="relative">
+      <div className="lg:order-2 order-1 lg:pb-0 md:pb-52 pb-56 relative h-[25rem]">
+        <div className="relative z-10">
           <div className="rounded-full w-40 h-40 mt-10 bg-gradient-to-b p-[6px] from-[#642DFF] via-[#F7F7F7] m-auto">
             <div className="w-32 h-32 items-center mx-auto my-3 ease-in duration-300 rounded-full bg-[#F7F7F7] relative"></div>
           </div>
@@ -197,17 +197,21 @@ const FAQ = () => {
             src={FaqImg}
             alt=""
           />
-          <div className="bg-[#FFFFFF] w-60 rounded-md shadow-md flex items-center gap-2 p-2 absolute lg:left-3 md:left-4 -bottom-24 right-0">
+          <div className="bg-[#FFFFFF] md:w-60 w-36 rounded-md shadow-md flex items-center gap-2 p-2 absolute lg:left-3 md:left-4 -bottom-24 md:right-0">
             <img
-              className="inline w-12 h-12 p-2 rounded-full bg-[#f7e7bb]"
+              className="inline md:w-12 md:h-12 w-6 h-6 p-2 rounded-full bg-[#f7e7bb]"
               src={Img}
               alt=""
             />
-            <h2 className="text-base capitalize text-[#1E1E1E] font-medium">
+            <h2 className="md:text-base text-xs capitalize text-[#1E1E1E] font-medium">
               get solution from our experts
             </h2>
           </div>
         </div>
+        <div
+          style={{ transform: "skewY(-24deg)skewX(55deg)" }}
+          className="bg-[#90D4E4] w-36 h-36 rounded-full mx-auto absolute  md:left-52 left-28 bottom-0 z-0"
+        ></div>
       </div>
     </div>
   );

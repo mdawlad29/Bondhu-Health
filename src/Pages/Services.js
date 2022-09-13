@@ -3,7 +3,7 @@ import ServiceInfo from "./ServiceInfo";
 
 const Services = () => {
   return (
-    <div className="bg-[#F7F7F7] md:space-y-10 space-y-5 md:px-24 px-4">
+    <div className="bg-[#F7F7F7] md:space-y-10 space-y-5 lg:px-24 md:px-16 px-4">
       <div>
         <p className="text-xl text-[#642DFF] text-center font-medium capitalize">
           our services

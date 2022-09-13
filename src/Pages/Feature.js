@@ -7,10 +7,10 @@ import imageFour from "../Images/image 8.png";
 
 const Feature = () => {
   return (
-    <div className="bg-[#F7F7F7] md:px-24 px-4 grid lg:grid-cols-3 grid-cols-1 items-center md:gap-6 gap-3 lg:py-16 py-8">
+    <div className="bg-[#F7F7F7] lg:px-24 md:px-16 px-4 grid lg:grid-cols-3 grid-cols-1 items-center md:gap-6 gap-3 lg:py-0 py-8">
       {/* --leftImg-- */}
-      <div className="col-span-1">
-        <div className="relative">
+      <div className="col-span-1 relative">
+        <div className="relative z-10">
           <div className="rounded-full w-40 h-40 mt-10 bg-gradient-to-b p-[6px] from-[#642DFF] via-[#F7F7F7] m-auto">
             <div className="w-32 h-32 items-center mx-auto my-3 ease-in duration-300 rounded-full bg-[#F7F7F7] relative"></div>
           </div>
@@ -19,11 +19,14 @@ const Feature = () => {
             src={FeatureImg}
             alt=""
           />
-          <div className="bg-red-300 w-28 h-28 rounded-full"></div>
         </div>
+        <div
+          style={{ transform: "skewY(-24deg)skewX(55deg)" }}
+          className="bg-[#90D4E4] w-36 h-36 rounded-full mx-auto absolute  lg:left-28 md:left-48  left-28 -bottom-44 z-0"
+        ></div>
       </div>
       {/* --rightInfo-- */}
-      <div className="space-y-4 col-span-2 ">
+      <div className="space-y-4 col-span-2 lt:pt-0 pt-36">
         <p className="text-base text-[#642DFF] font-medium capitalize">
           our hospital feature
         </p>

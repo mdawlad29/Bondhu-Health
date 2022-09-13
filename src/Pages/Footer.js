@@ -5,7 +5,7 @@ import QuickLink from "../Components/Footer/QuickLink";
 
 const Footer = () => {
   return (
-    <div className="bg-[#FFFFFF] md:space-y-10 space-y-5 md:px-24 px-4 py-10">
+    <div className="bg-[#F7F7F7] md:space-y-10 space-y-5 lg:px-24 md:px-16 px-4 py-10">
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-4">
         <div>
           <CompanyInfo />

@@ -1,5 +1,6 @@
 import { Avatar, AvatarGroup } from "@mui/material";
 import React from "react";
+import { AiOutlineCheckCircle } from "react-icons/ai";
 import { IoMdAdd } from "react-icons/io";
 import BannerImg from "../Images/pose_2.png";
 
@@ -60,12 +61,13 @@ const Banner = () => {
             src={BannerImg}
             alt=""
           />
-          <div className="flex gap-3 items-center absolute lg:-left-12 lg:bottom-20 md:bottom-48 bottom-28">
-            <button className="bg-[#2D89FF] text-white py-3 md:px-8 px-2 text-lg rounded-md">
+          <div className="absolute lg:-left-12 lg:bottom-20 md:bottom-48 bottom-28">
+            <button className="bg-[#2D89FF] text-white py-3 md:px-6 px-2 text-lg rounded-md">
+              <AiOutlineCheckCircle className="inline text-xl mr-2" />
               Regular Checkup
             </button>
           </div>
-          <div className="bg-[#FFFFFF] px-2 py-1 rounded-md shadow-md w-48 absolute lg:right-16 lg:bottom-7 md:bottom-36 md:right-12 bottom-0 right-5">
+          <div className="bg-[#FFFFFF] px-2 py-1 rounded-md shadow-md lg:w-48 w-72 absolute lg:right-16 lg:bottom-7 md:bottom-28 md:left-80 -bottom-3 left-8">
             <h3 className="text-sm text-[#575757]">Meet our doctors</h3>
             <AvatarGroup>
               <Avatar

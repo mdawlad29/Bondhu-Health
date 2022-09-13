@@ -4,5 +4,20 @@ module.exports = {
   theme: {
     extend: {},
   },
+  healthBondhu: {
+    themes: [
+      {
+        mytheme: {
+          primary: "#2D89FF",
+          secondary: "#642DFF",
+          accent: "#37cdbe",
+          neutral: "#3d4451",
+          "base-100": "#ffffff",
+        },
+      },
+      "dark",
+      "cupcake",
+    ],
+  },
   plugins: [require("daisyui")],
 };
