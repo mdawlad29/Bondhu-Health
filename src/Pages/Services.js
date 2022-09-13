@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceInfo from "./ServiceInfo";
+import ServiceInfo from "../Components/ServiceInfo";
 
 const Services = () => {
   return (
