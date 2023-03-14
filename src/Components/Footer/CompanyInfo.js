@@ -18,17 +18,20 @@ const CompanyInfo = () => {
         has been the industry's
       </h3>
       <div className="flex gap-5">
-        <a target="_blank" href="https://www.facebook.com/awlads">
+        <a
+          target="_blank"
+          href="https://www.facebook.com/awlads"
+          rel="noreferrer"
+        >
           <BsFacebook className="inline w-10 h-10 p-1 rounded-md bg-[#FFFFFF] shadow-md text-[#662DFF] cursor-pointer" />
         </a>
         <FaInstagramSquare className="inline w-10 h-10 p-1 rounded-md bg-[#FFFFFF] shadow-md text-[#662DFF] cursor-pointer" />
-        <a href="https://www.google.com" target="_blank">
-          <AiFillGoogleCircle className="inline w-10 h-10 p-1 rounded-md text-[#662DFF] cursor-pointer" />
+        <a href="https://www.google.com" target="_blank" rel="noreferrer">
+          <AiFillGoogleCircle className="inline w-10 h-10 p-1 rounded-md bg-[#FFFFFF] shadow-md text-[#662DFF] cursor-pointer" />
         </a>
         <AiFillTwitterCircle className="inline w-10 h-10 p-1 rounded-md bg-[#FFFFFF] shadow-md text-[#662DFF] cursor-pointer" />
         <AiFillYoutube className="inline w-10 h-10 p-1 rounded-md bg-[#FFFFFF] shadow-md text-[#662DFF] cursor-pointer" />
       </div>
-      
     </div>
   );
 };
